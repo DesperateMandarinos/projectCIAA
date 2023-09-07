@@ -31,7 +31,7 @@ def modeloPrediccion():
         return jsonify({'resultado':str(resultado[0])})
 
 @servidorWeb.route('/modeloForm',methods=['POST'])        
-def modeloPrediccion():
+def modeloForm():
         #procesar los deatos de entrada
         contenido=request.json
         print(contenido)
